@@ -1,16 +1,22 @@
 @-moz-document domain("wikipedia.org") {
+/*@import url(https://fonts.googleapis.com/css?family=Lora);*/
+
+@font-face {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lora'), local('Lora-Regular'), url(http://fonts.gstatic.com/s/lora/v9/4A-myfZX6oDr9CtSTkTGig.ttf) format('truetype');
+}
 body {
     border: none !important;
-    font-family: "Lora", "Lora", sans-serif !important;
-    font-size: 20px !important;
+    font-family: 'Lora', serif !important;
+    font-size: 18px !important;
     background: #FFF !important;
 }
 #content {
     margin: 0 auto !important;
     border: none !important;
-    /*font-family: "Palatino", "Palatino", serif !important;*/
-    
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-family: 'Lora' !important;
     font-size: 16px !important;
     line-height: 80% !important;
     max-width: 920px !important;
@@ -38,7 +44,7 @@ a:hover {
 }
 #mw-head {
     position: relative !important;
-    max-width: 930px !important;
+    max-width: 870px !important;
     height: 90px !important;
     margin: 0 auto !important;
 }
@@ -92,7 +98,7 @@ a:hover {
     margin-left: 15px !important;
     border: none !important;
     background: #E8E6E2 !important;
-    width: 350px !important;
+    width: 345px !important;
     padding: 0 0 7px !important;
 }
 #mw-head #searchform > div input#searchInput {
@@ -108,12 +114,12 @@ a:hover {
     position: relative !important;
     width: 120px !important;
     height: 120px !important;
-    top: 25px !important;
+    top: 30px !important;
     left: 10px !important;
     content: 'Wikipedia' !important;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-family: 'Lora', serif !important;
     /*font-style: italic !important;*/
-    
+
     font-weight: normal !important;
     font-size: 28px !important;
     text-transform: uppercase !important;
@@ -127,7 +133,7 @@ a:hover {
     font-size: 18px !important;
     top: 0px !important;
     left: -255px !important;
-    width: 190px !important;
+    width: 160px !important;
     height: 100% !important;
     overflow-y: auto !important;
     padding: 0 0 0 100px !important;
@@ -173,7 +179,7 @@ a:hover {
 /* headlines */
 
 #firstHeading {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-family: 'Lora', serif !important;
     font-size: 2.7em !important;
     margin-top: 40px !important;
     padding-bottom: 5px !important;
@@ -188,7 +194,7 @@ a:hover {
 #bodyContent h6 {
     margin-top: 40px !important;
     margin-bottom: 25px !important;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif !important;
+    font-family: 'Lora', serif !important;
     font-weight: normal !important;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) !important;
 }
@@ -200,7 +206,7 @@ a:hover {
 #bodyContent h6 span.mw-editsection {
     float: right !important;
     margin-top: 12px !important;
-    font-family: "Lora", "Lora", sans-serif !important;
+    font-family: 'Lora', serif !important;
     text-shadow: none !important;
 }
 span.mw-editsection span.mw-editsection-bracket {
@@ -238,7 +244,7 @@ body {
 #bodyContent h5:before,
 #bodyContent h6:before {
     padding-right: 9px;
-    font-family: "Lora", "Lora", sans-serif !important;
+    font-family: 'Lora', serif !important;
     text-shadow: none !important;
 }
 #bodyContent h2 {
@@ -328,8 +334,9 @@ html[lang="de"] #bodyContent #coordinates
 #bodyContent p,
 #bodyContent li,
 #bodyContent div.hatnote {
-    font-size: 17px !important;
+    font-size: 18px !important;
     line-height: 26px !important;
+    font-family: 'Lora' !important;
     letter-spacing: -0.3px !important;
 }
 #bodyContent a:not(.new) {
@@ -483,7 +490,6 @@ table
     opacity: 0 !important;
     overflow-y: auto!important;
     z-index: 9999;
-    border: none !important;
     background: #646261 !important;
     box-shadow: 1px 0 6px rgba(0, 0, 0, 0.25) !important;
 }

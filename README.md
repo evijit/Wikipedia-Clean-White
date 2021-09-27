@@ -6,7 +6,6 @@
 
 A clean white theme for Wikipedia. Inspired by the [1911 theme](https://blog.weare1910.com/post/75576312730/a-readable-wikipedia) and [Wikiwand](https://blog.weare1910.com/post/75576312730/a-readable-wikipedia). It is cleaner and uses serif font to make the content look more academic.
 
-[evijit](https://github.com/evijit/Wikipedia-Clean-White) made this quick style when he saw Wikiwand had gone paid, and I updated it for 2021. It might be rough around the edges. Feel free to contribute !
 
 ## 💾 Installation
 
